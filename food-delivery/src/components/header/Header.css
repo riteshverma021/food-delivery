@@ -1,0 +1,34 @@
+.header{
+height: 34vw;
+margin: 30px auto;
+background: url('/header_img.png') no-repeat;
+position: relative;
+background-size: contain;
+
+
+}
+.header-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+    align-items: start;
+    bottom: 10%;
+    max-width: 50%;
+    left: 6vw;
+}
+.header-content h1{
+    color: aliceblue;
+    font-weight: 500;
+    font-size: max(4.5vw,22px);
+}
+.header-content p{
+    color: aliceblue;
+    font-size: 1vw;
+}
+.header-content button{
+    padding: 10px 30px;
+    border: transparent;
+    font-size: 20px;
+    border-radius: 30px;
+}
